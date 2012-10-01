@@ -28,6 +28,6 @@ You can use, redo and enjoy it only for your personal needs.
 If you want to use the code, drop me a line here hello@appetylabs.com and I will give you a response in a few whiles.
 
 
--- Konrad Kolasa
-Twitter: @konradkolasa
-eMail: hello@appetylabs.com
+-- Konrad Kolasa  <br>
+Twitter: [@konradkolasa](http://twitter.com/konradkolasa) <br>
+Email: hello@appetylabs.com
