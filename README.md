@@ -16,7 +16,7 @@ App supports:
 App includes a sequence of basic graphics like icons and splashes.
 
 Here's available a simple movie from prototype version:
-https://www.dropbox.com/s/htdup79gfw3ryy8/video.mov
+https://dl.dropbox.com/u/4452336/video_tinySHarkiOS.mov
 
 
 
