@@ -20,11 +20,6 @@
     viewController = [[TSViewController alloc] init];
     self.window.rootViewController = viewController;
     
-    AVAudioSession *session = [AVAudioSession sharedInstance];
-    NSError *setCategoryError = nil;
-    [session setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
-    [session setActive:YES error: &setCategoryError];
-    
     [self.window makeKeyAndVisible];
     return YES;
 }

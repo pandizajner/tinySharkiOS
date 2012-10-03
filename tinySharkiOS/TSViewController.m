@@ -29,6 +29,11 @@
 {
     [super viewDidLoad];
     
+    NSError *myErr;
+	
+    AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+    [audioSession setCategory:AVAudioSessionCategoryPlayback error:&myErr];
+    
     webView = [[UIWebView alloc] initWithFrame:[self.view bounds]];
     
     CGRect indicatorFrame = CGRectMake((self.view.frame.size.width/2)-11, (self.view.frame.size.height/2)-11, 22, 22);
