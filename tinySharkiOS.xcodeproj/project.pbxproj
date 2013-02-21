@@ -13,9 +13,6 @@
 		C04EA01F161B901000B6CC59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C04EA01D161B901000B6CC59 /* InfoPlist.strings */; };
 		C04EA021161B901000B6CC59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EA020161B901000B6CC59 /* main.m */; };
 		C04EA025161B901000B6CC59 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EA024161B901000B6CC59 /* TSAppDelegate.m */; };
-		C04EA027161B901000B6CC59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C04EA026161B901000B6CC59 /* Default.png */; };
-		C04EA029161B901000B6CC59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C04EA028161B901000B6CC59 /* Default@2x.png */; };
-		C04EA02B161B901000B6CC59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C04EA02A161B901000B6CC59 /* Default-568h@2x.png */; };
 		C04EA033161B902E00B6CC59 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04EA032161B902E00B6CC59 /* TSViewController.m */; };
 		C04EA035161B998400B6CC59 /* icon-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C04EA034161B998400B6CC59 /* icon-iphone.png */; };
 		C04EA037161B998800B6CC59 /* icon-iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C04EA036161B998800B6CC59 /* icon-iphone@2x.png */; };
@@ -42,9 +39,6 @@
 		C04EA022161B901000B6CC59 /* tinySharkiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tinySharkiOS-Prefix.pch"; sourceTree = "<group>"; };
 		C04EA023161B901000B6CC59 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
 		C04EA024161B901000B6CC59 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
-		C04EA026161B901000B6CC59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C04EA028161B901000B6CC59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		C04EA02A161B901000B6CC59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C04EA031161B902E00B6CC59 /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		C04EA032161B902E00B6CC59 /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
 		C04EA034161B998400B6CC59 /* icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iphone.png"; sourceTree = "<group>"; };
@@ -134,9 +128,6 @@
 				C04EA01D161B901000B6CC59 /* InfoPlist.strings */,
 				C04EA020161B901000B6CC59 /* main.m */,
 				C04EA022161B901000B6CC59 /* tinySharkiOS-Prefix.pch */,
-				C04EA026161B901000B6CC59 /* Default.png */,
-				C04EA028161B901000B6CC59 /* Default@2x.png */,
-				C04EA02A161B901000B6CC59 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,9 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04EA01F161B901000B6CC59 /* InfoPlist.strings in Resources */,
-				C04EA027161B901000B6CC59 /* Default.png in Resources */,
-				C04EA029161B901000B6CC59 /* Default@2x.png in Resources */,
-				C04EA02B161B901000B6CC59 /* Default-568h@2x.png in Resources */,
 				C04EA035161B998400B6CC59 /* icon-iphone.png in Resources */,
 				C04EA037161B998800B6CC59 /* icon-iphone@2x.png in Resources */,
 				C04EA039161B99C000B6CC59 /* Default-568h@2x.png in Resources */,
@@ -292,11 +280,13 @@
 		C04EA02F161B901000B6CC59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Konrad Kolasa (PZ7XNXD73Z)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tinySharkiOS/tinySharkiOS-Prefix.pch";
 				INFOPLIST_FILE = "tinySharkiOS/tinySharkiOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7911BD96-926E-4B5F-B592-4CB90E2AF734";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -304,11 +294,13 @@
 		C04EA030161B901000B6CC59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Konrad Kolasa (PZ7XNXD73Z)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tinySharkiOS/tinySharkiOS-Prefix.pch";
 				INFOPLIST_FILE = "tinySharkiOS/tinySharkiOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7911BD96-926E-4B5F-B592-4CB90E2AF734";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
